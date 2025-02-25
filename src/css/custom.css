@@ -12,7 +12,12 @@
   font-display: swap;
 }
 body {
-  font-size: 150%;
+  font-size: 130%;
+}
+@media (min-width: 997px) {
+  body {
+    font-size: 150%;
+  }
 }
 main {
   width: 100% !important;
@@ -20,7 +25,10 @@ main {
   min-height: 65vh;
   padding-top: 64px;
 }
-.theme-doc-sidebar-container, .navbar__toggle {
+.navbar__toggle {
+  margin-right: 16px;
+}
+.theme-doc-sidebar-container{
   display: none !important;
 }
 .footer, table, .navbar__item {

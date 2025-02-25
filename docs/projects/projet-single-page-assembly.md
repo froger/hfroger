@@ -25,7 +25,7 @@ Quand une association pour personaliser l'url et l'apparence de son assemblée s
 
 
 <figure>
-  <img src="/storage/1740492067527.jpeg" alt="" />
+  <img src="/storage/1740492706951.jpeg" alt="" />
   <figcaption>
   
     

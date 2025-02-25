@@ -20,6 +20,8 @@ const syncLinks = async (pagePosition, title, paragraph, filter) => {
   return `---
 sidebar_position: ${pagePosition}
 hide_table_of_contents: true
+last_update:
+  date: ${(new Date()).toISOString()}
 ---
 
 # ${title}
