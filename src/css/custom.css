@@ -91,10 +91,11 @@ h1:first-child{
   --ifm-color-primary-lightest: #68D6C5; /* 30% lighter */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
-
-
+[data-theme='dark'] .navbar__logo img {
+  filter: invert(1);
+}
 .footer{
-  background-color: #226A63;
+  background-color: #08201e;
   padding-top: 128px;
   padding-bottom: 86px;
 }

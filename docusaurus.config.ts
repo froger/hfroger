@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "HFroper",
+  title: "HFroger",
   tagline: "Personal Digital Garden",
   favicon: "img/favicon.ico",
 
@@ -39,6 +39,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           routeBasePath: "/",
+          showLastUpdateTime: true
         },
         blog: {
           showReadingTime: true,
@@ -62,7 +63,7 @@ const config: Config = {
   themeConfig: {
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "hfroger.ch",
+      title: "",
       logo: {
         alt: "hfroger.ch Logo",
         src: "img/hfroger-logo.png",
