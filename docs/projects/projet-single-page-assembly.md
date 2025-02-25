@@ -2,7 +2,7 @@
 sidebar_position: 15
 slug: projet-single-page-assembly
 last_update:
-  date: 1/1/2000
+  date: 2025-02-25T07:48:00.000Z
 hide_table_of_contents: true
 ---
 
@@ -25,7 +25,7 @@ Quand une association pour personaliser l'url et l'apparence de son assemblée s
 
 
 <figure>
-  <img src="1740478730703.jpeg" alt="" />
+  <img src="/storage/1740486298965.jpeg" alt="" />
   <figcaption>
   
     

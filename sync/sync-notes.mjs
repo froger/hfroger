@@ -7,7 +7,6 @@ const syncNotes = async (startIndex = 50) => {
   const notes = await notionNotes();
   const pageNumbers = await Promise.all(
     notes.map(async (note, index) => {
-      console.log("NOTE", note)
       const pageTitle = _.first(note.Title.title)?.plain_text || "";
       const slug = slugify(pageTitle, {
         lower: true,

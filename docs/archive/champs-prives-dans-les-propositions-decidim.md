@@ -2,7 +2,7 @@
 sidebar_position: 32
 slug: champs-prives-dans-les-propositions-decidim
 last_update:
-  date: 1/1/2000
+  date: 2025-02-25T09:47:00.000Z
 hide_table_of_contents: true
 ---
 

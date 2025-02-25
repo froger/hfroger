@@ -13,7 +13,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "sync": "node ./sync/index.mjs"
+    "sync": "node ./sync/index.mjs && yarn build"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",

@@ -23,19 +23,18 @@ export const n2m = new NotionToMarkdown({
 
 n2m.setCustomTransformer("image", async (block) => {
   const { image } = block;
-  console.log("IMAGE", image)
   let srcUrl = "";
   let name = image.name || ""
   if(image.type === "external") {
     try{
-      srcUrl = await downloadImageTo(image.external.url, "static/storage/")
+      srcUrl = await downloadImageTo(image.external.url, "storage/")
     }catch(err) {
       // fallback on download external image, it might allow embedding. 
       srcUrl = image.external.url
     }
   }else {
     const fileUrl = image.file.url;
-    srcUrl = await downloadImageTo(fileUrl, "static/storage/")
+    srcUrl = await downloadImageTo(fileUrl, "storage/")
   }
   return `
 <figure>

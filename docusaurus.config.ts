@@ -1,131 +1,124 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'HFroper',
-  tagline: 'Personal Digital Garden',
-  favicon: 'img/favicon.ico',
+  title: "HFroper",
+  tagline: "Personal Digital Garden",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://hfroger.ch',
+  url: "https://hfroger.ch",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: "facebook", // Usually your GitHub org/user name.
+  projectName: "docusaurus", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
-          routeBasePath: '/'
-
+          routeBasePath: "/",
         },
         blog: {
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: ["rss", "atom"],
             xslt: true,
           },
           // Please change this to your repo.
           // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onInlineTags: "warn",
+          onInlineAuthors: "warn",
+          onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: 'hfroger.ch',
+      title: "hfroger.ch",
       logo: {
-        alt: 'hfroger.ch Logo',
-        src: 'img/hfroger-logo.png',
+        alt: "hfroger.ch Logo",
+        src: "img/hfroger-logo.png",
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Garden',
-        },
-        {to: '/blog', label: 'Articles', position: 'left'}
+        { to: "/links", label: "Links", position: "left" },
+        { to: "/category/projects", label: "Projects", position: "left" },
+        { to: "/category/notes", label: "Notes", position: "left" },
+        { to: "/category/archive", label: "Archive", position: "left" },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
-            {
-              label: 'Tutorial',
-              to: '/docs',
-            },
+            { to: "/links", label: "Links" },
+            { to: "/category/projects", label: "Projects" },
+            { to: "/category/notes", label: "Notes" },
+            { to: "/category/archive", label: "Archive" },
           ],
         },
         {
-          title: 'Contact',
+          title: "Contact",
           items: [
             {
-              label: 'Matrix',
-              href: 'https://matrix.to/#/@hfroger:matrix.org',
+              label: "Matrix",
+              href: "https://matrix.to/#/@hfroger:matrix.org",
             },
             {
-              label: 'Linkedin',
-              href: 'https://www.linkedin.com/in/hadrienfroger',
+              label: "Linkedin",
+              href: "https://www.linkedin.com/in/hadrienfroger",
             },
             {
-              label: 'Schedule a Call',
-              href: 'https://cal.com/hadrien/30min',
+              label: "Schedule a Call",
+              href: "https://cal.com/hadrien/30min",
             },
             {
               label: "hadrien@octree.ch",
-              href: 'mailto:hadrien@octree.ch',
-            }
+              href: "mailto:hadrien@octree.ch",
+            },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Articles',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/froger',
+              label: "GitHub",
+              href: "https://github.com/froger",
             },
           ],
         },
       ],
-      copyright: "Love data | Data is essential | Data must flow | Data must be used | Data is neither good nor bad | There is no illegal data | Data is free | Data can not be owned | No man, machine or system shall interrupt the flow of data | Locking data is a crime against datanity <br /> Love data",
+      copyright:
+        "Love data | Data is essential | Data must flow | Data must be used | Data is neither good nor bad | There is no illegal data | Data is free | Data can not be owned | No man, machine or system shall interrupt the flow of data | Locking data is a crime against datanity <br /> Love data",
     },
     prism: {
       theme: prismThemes.github,
@@ -136,7 +129,6 @@ const config: Config = {
       defaultMode: "dark",
       respectPrefersColorScheme: true,
     },
-
   } satisfies Preset.ThemeConfig,
 };
 

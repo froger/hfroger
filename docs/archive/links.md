@@ -1,9 +1,10 @@
 ---
 sidebar_position: 6
+hide_table_of_contents: true
 ---
 
 # Archived Links
-Links I do not use anymore as reference
+Links I do not use anymore as reference.Theses links refers to external site, they may have changed or outdated.
 
 | Title            	| Tags                 	| Link     	| Comment                     	|
 |------------------	|----------------------	|----------	|-----------------------------	|

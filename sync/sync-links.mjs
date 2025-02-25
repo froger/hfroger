@@ -19,6 +19,7 @@ const linkTable = async (filter) => {
 const syncLinks = async (pagePosition, title, paragraph, filter) => {
   return `---
 sidebar_position: ${pagePosition}
+hide_table_of_contents: true
 ---
 
 # ${title}

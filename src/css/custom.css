@@ -11,20 +11,46 @@
   font-style: normal;
   font-display: swap;
 }
+body {
+  font-size: 150%;
+}
+main {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 65vh;
+  padding-top: 64px;
+}
+.theme-doc-sidebar-container, .navbar__toggle {
+  display: none !important;
+}
+.footer, table, .navbar__item {
+  font-size: 80%;
+}
+td > code {
+  padding: 2px 8px 1px 8px;
+  letter-spacing: 1px;
+}
+pre > code {
+  padding: 8px 16px;
+  max-width: 100%;
+}
+table {
+  font-size: 65%;
+}
 h1 {
-  font-size: 600%;
-}
-h2 {
-  font-size: 400%;
-}
-h3 {
-  font-size: 350%;
-}
-h4 {
   font-size: 300%;
 }
-h5 {
+h2 {
+  font-size: 300%;
+}
+h3 {
   font-size: 250%;
+}
+h4 {
+  font-size: 200%;
+}
+h5 {
+  font-size: 150%;
 }
 table {
   display: table;

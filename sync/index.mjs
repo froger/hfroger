@@ -11,8 +11,8 @@ const sync = async () => {
   removeMdFiles("docs/archive")
   removeMdFiles("docs/notes")
   removeMdFiles("docs/projects")
-  const activeLinks = await syncLinks(3, "Fresh Links", "Links I currently use as reference in my daily routines", "Resource");
-  const archiveLinks = await syncLinks(6, "Archived Links", "Links I do not use anymore as reference", "Archive");
+  const activeLinks = await syncLinks(3, "Fresh Links", "Links I currently use as reference in my daily routines. Theses links refers to external site, they may have changed or outdated.", "Resource");
+  const archiveLinks = await syncLinks(6, "Archived Links", "Links I do not use anymore as reference.Theses links refers to external site, they may have changed or outdated.", "Archive");
   fs.writeFileSync("docs/links.md", activeLinks)
   fs.writeFileSync("docs/archive/links.md", archiveLinks)
   let paginationNumber

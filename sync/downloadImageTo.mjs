@@ -26,7 +26,7 @@ async function downloadImageTo(fileUrl,  outDir) {
 
     // Create a new file name with a timestamp
     const newFileName = `${Date.now()}${extension}`;
-    const outPath = path.join(outDir, newFileName);
+    const outPath = path.join(`static/${outDir}`, newFileName);
 
     // Fetch the image data
     const response = await fetch(fileUrl);
@@ -39,7 +39,7 @@ async function downloadImageTo(fileUrl,  outDir) {
     fs.writeFileSync(outPath, buffer);
 
     // Return the new file name
-    return newFileName;
+    return `/${outDir}${newFileName}`;
   } catch (error) {
     console.error('Error downloading image:', error);
     throw error;
