@@ -24,7 +24,10 @@ jobs:
       - name: Build website
         working-directory: .
         run: yarn sync && yarn build
-
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE: ${{ secrets.NOTION_DATABASE }}
+          NOTION_NOTE_DATABASE: ${{ secrets.NOTION_NOTE_DATABASE }}
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3
         with:
