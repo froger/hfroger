@@ -4,9 +4,9 @@
  * work well for content-centric websites.
  */
  @font-face {
-  font-family: 'Playball';
-  src: url('/static/font/Playball/Playball-Regular.woff2') format('woff2'),
-      url('/static/font/Playball/Playball-Regular.woff') format('woff');
+  font-family: 'DotMatrix';
+  src: url('/static/font/DotMatrix/DotMatrix-Regular.woff2') format('woff2'),
+      url('/static/font/DotMatrix/DotMatrix-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -37,36 +37,51 @@ table thead th {
   border: 3px solid var(--ifm-color-primary-darkest);
   border-bottom-color: var(--ifm-color-primary-dark);
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Playball";
+h1:first-child{
+  font-family: "DotMatrix";
 }
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #F45B69;
-  --ifm-color-primary-dark: #e04a56;
-  --ifm-color-primary-darker: #cc3441;
-  --ifm-color-primary-darkest: #85141d;
-  --ifm-color-primary-light: #f86f7b;
-  --ifm-color-primary-lighter: #fd959e;
-  --ifm-color-primary-lightest: #fad0d4;
+  --ifm-color-primary: #3BA99C;
+  --ifm-color-primary-dark: #35988D; /* 10% darker */
+  --ifm-color-primary-darker: #2E887F; /* 20% darker */
+  --ifm-color-primary-darkest: #226A63; /* 30% darker */
+  --ifm-color-primary-light: #41BAA9; /* 10% lighter */
+  --ifm-color-primary-lighter: #4BC4B3; /* 20% lighter */
+  --ifm-color-primary-lightest: #68D6C5; /* 30% lighter */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #F45B69;
-  --ifm-color-primary-dark: #e04a56;
-  --ifm-color-primary-darker: #cc3441;
-  --ifm-color-primary-darkest: #85141d;
-  --ifm-color-primary-light: #f86f7b;
-  --ifm-color-primary-lighter: #fd959e;
-  --ifm-color-primary-lightest: #fad0d4;
+  --ifm-color-primary: #3BA99C;
+  --ifm-color-primary-dark: #35988D; /* 10% darker */
+  --ifm-color-primary-darker: #2E887F; /* 20% darker */
+  --ifm-color-primary-darkest: #226A63; /* 30% darker */
+  --ifm-color-primary-light: #41BAA9; /* 10% lighter */
+  --ifm-color-primary-lighter: #4BC4B3; /* 20% lighter */
+  --ifm-color-primary-lightest: #68D6C5; /* 30% lighter */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+.footer{
+  background-color: #226A63;
+  padding-top: 128px;
+  padding-bottom: 86px;
+}
+.footer__bottom {
+  margin-top: 86px;
+}
+
+.padding-bottom--lg {
+  padding-bottom: 86px !important;
+}
+.padding-bottom--md {
+  padding-bottom: 32px !important;
+}
+.padding-bottom--sm {
+  padding-bottom: 16px !important;
 }

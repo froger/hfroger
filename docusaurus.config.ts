@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'HFroper',
+  tagline: 'Personal Digital Garden',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://hfroger.ch',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -61,7 +61,6 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'hfroger.ch',
@@ -92,42 +91,52 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Contact',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Matrix',
+              href: 'https://matrix.to/#/@hfroger:matrix.org',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Linkedin',
+              href: 'https://www.linkedin.com/in/hadrienfroger',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Schedule a Call',
+              href: 'https://cal.com/hadrien/30min',
             },
+            {
+              label: "hadrien@octree.ch",
+              href: 'mailto:hadrien@octree.ch',
+            }
           ],
         },
         {
           title: 'More',
           items: [
             {
-              label: 'Blog',
+              label: 'Articles',
               to: '/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/froger',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: "Love data | Data is essential | Data must flow | Data must be used | Data is neither good nor bad | There is no illegal data | Data is free | Data can not be owned | No man, machine or system shall interrupt the flow of data | Locking data is a crime against datanity <br /> Love data",
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+      defaultLanguage: "ruby",
     },
+    colorMode: {
+      defaultMode: "dark",
+      respectPrefersColorScheme: true,
+    },
+
   } satisfies Preset.ThemeConfig,
 };
 

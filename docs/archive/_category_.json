@@ -1,0 +1,8 @@
+{
+  "label": "Archive",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Composting articles and references"
+  }
+}
