@@ -2,7 +2,7 @@
 sidebar_position: 6
 hide_table_of_contents: true
 last_update:
-  date: 2025-02-25T14:11:44.770Z
+  date: 2025-02-25T18:01:40.650Z
 ---
 
 # Archived Links
@@ -11,7 +11,7 @@ Links I do not use anymore as reference.Theses links refers to external site, th
 | Title            	| Tags                 	| Link     	| Comment                     	|
 |------------------	|----------------------	|----------	|-----------------------------	|
 | [Cours d’eco-construction](https://comosereformaumplaneta.wordpress.com/wp-content/uploads/2013/09/curso-de-bioconstruc3a7c3a3o.pdf) 	|  	| [ https://comosereformaumpl ](https://comosereformaumplaneta.wordpress.com/wp-content/uploads/2013/09/curso-de-bioconstruc3a7c3a3o.pdf) 	|  	|
-| [Conventions d’écriture pour des documents de gouvernances](https://www.iso.org/standard/78907.html) 	|  	| [ https://www.iso.org/stand ](https://www.iso.org/standard/78907.html) 	|  	|
+| [ISO 24495-1:2023 Plain language Governing principles and guidelines](https://www.iso.org/standard/78907.html) 	| `#commons` 	| [ https://www.iso.org/stand ](https://www.iso.org/standard/78907.html) 	| Inclusions rules for administrations 	|
 | [React hook for YJS](https://github.com/nikgraf/react-yjs) 	|  	| [ https://github.com/nikgra ](https://github.com/nikgraf/react-yjs) 	|  	|
 | [Strapi testing typescript](https://medium.com/@ghulamrasool7/strapi-typescript-and-tests-with-jest-and-supertest-121183c6895d) 	|  	| [ https://medium.com/@ghula ](https://medium.com/@ghulamrasool7/strapi-typescript-and-tests-with-jest-and-supertest-121183c6895d) 	|  	|
 | [The Blockchain Governance Toolkit](https://www.projectliberty.io/news/towards-a-responsible-decentralized-ecosystem-unveiling-project-liberty-institute-and-blockchaingov-s-blockchain-governance-toolkit) 	|  	| [ https://www.projectlibert ](https://www.projectliberty.io/news/towards-a-responsible-decentralized-ecosystem-unveiling-project-liberty-institute-and-blockchaingov-s-blockchain-governance-toolkit) 	|  	|

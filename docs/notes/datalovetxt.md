@@ -2,14 +2,14 @@
 sidebar_position: 35
 slug: datalovetxt
 last_update:
-  date: 2025-02-25T09:33:00.000Z
+  date: 2025-02-25T14:38:00.000Z
 hide_table_of_contents: true
 ---
 
 # Datalove.txt
 
 
-After some SSL issues on the [https://www.deadbits.org/hax/datalove.txt](https://www.deadbits.org/hax/datalove.txt) page, I make here a content to be sure not to loose such treasure.
+After some SSL issues on the [https://www.deadbits.org/hax/datalove.txt](https://www.deadbits.org/hax/datalove.txt) page, I make here a copy to be sure not to loose such treasure.
 
 
 ```plain text

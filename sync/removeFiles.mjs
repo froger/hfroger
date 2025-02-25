@@ -19,7 +19,9 @@ function removeImageFiles(directoryPath) {
         '.jpeg',
         '.jpg',
         '.png',
-        '.svg'
+        '.svg',
+        '.pdf',
+        '.txt'
       ].includes(path.extname(file))) {
         // Remove the file
         fs.unlink(path.join(directoryPath, file), (err) => {

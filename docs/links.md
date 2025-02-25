@@ -2,7 +2,7 @@
 sidebar_position: 3
 hide_table_of_contents: true
 last_update:
-  date: 2025-02-25T14:11:39.647Z
+  date: 2025-02-25T18:01:39.493Z
 ---
 
 # Fresh Links
@@ -10,6 +10,9 @@ Links I currently use as reference in my daily routines. Theses links refers to 
 
 | Title            	| Tags                 	| Link     	| Comment                     	|
 |------------------	|----------------------	|----------	|-----------------------------	|
+| [polis](https://pol.is/home) 	| `#civic-tech` 	| [ https://pol.is/home ](https://pol.is/home) 	|  	|
+| [Ushahidi](https://github.com/ushahidi/platform) 	| `#participation` 	| [ https://github.com/ushahi ](https://github.com/ushahidi/platform) 	| PHP open source platform for gather geo data by SMS&other 	|
+| [ActivityPub server framework](https://fedify.dev/) 	| `#code` 	| [ https://fedify.dev/ ](https://fedify.dev/) 	| typescript framework to make activity pub  	|
 | [Convert Font ttf to web version](https://transfonter.org/) 	|  	| [ https://transfonter.org/ ](https://transfonter.org/) 	|  	|
 | [PostgreSQL Anonymizer](https://postgresql-anonymizer.readthedocs.io/en/stable/) 	| `#code` 	| [ https://postgresql-anonym ](https://postgresql-anonymizer.readthedocs.io/en/stable/) 	| To anonymize staging DB automatically 	|
 | [GrapeJS / Page builder](https://grapesjs.com/) 	| `#code` 	| [ https://grapesjs.com/ ](https://grapesjs.com/) 	| versatile open source page builder 	|

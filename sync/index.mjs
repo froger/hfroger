@@ -4,10 +4,10 @@ import syncProjects from "./sync-projects.mjs";
 import removeMdFiles from './removeMdFiles.mjs'
 import fs from 'fs';
 import syncNotes from './sync-notes.mjs';
-import removeImageFiles from './removeImageFiles.mjs';
+import removeFiles from './removeFiles.mjs';
 
 const sync = async () => {
-  removeImageFiles("static/storage")
+  removeFiles("static/storage")
   removeMdFiles("docs/archive")
   removeMdFiles("docs/notes")
   removeMdFiles("docs/projects")
