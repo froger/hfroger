@@ -44,20 +44,18 @@ pre > code {
 table {
   font-size: 80%;
 }
-h1 {
-  font-size: 300%;
-}
+
 h2 {
-  font-size: 300%;
-}
-h3 {
-  font-size: 250%;
-}
-h4 {
   font-size: 200%;
 }
-h5 {
+h3 {
   font-size: 150%;
+}
+h4 {
+  font-size: 100%;
+}
+h5 {
+  font-size: 100%;
 }
 table {
   display: table;
@@ -72,6 +70,7 @@ table thead th {
 }
 h1{
   font-family: "CrazyPixel", monospace;
+  font-size: 450%;
 }
 
 /* You can override the default Infima variables here. */
@@ -161,4 +160,11 @@ main {
   font-size: 180%;
 }.card.padding--lg p{
   display: none;
+}
+
+.footer__col:nth-child(2) .footer__item:nth-child(3) a{
+
+  font-family: "CrazyPixel", monospace;
+  font-size: 180%;
+  line-height: 1.2;
 }
