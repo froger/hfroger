@@ -1,8 +1,8 @@
 ---
-sidebar_position: 17
+sidebar_position: 18
 slug: decidim-api
 last_update:
-  date: 2025-02-25T14:20:00.000Z
+  date: 2025-03-14T23:37:00.000Z
 hide_table_of_contents: true
 ---
 
@@ -18,5 +18,14 @@ Other tools can work with a decidim instance through a generated client. The cli
 
 
 Interoperability can be made through the main decidim components: blogs, pages, proposals, and meetings.
+
+
+## Updates 
+
+
+**jan/2025** We have a first proof of concept done
+
+
+**feb/2025** We are done with proposals and user extended data. We will introduce a DSL to write the openapi specs (RFC: [https://git.octree.ch/decidim/decidim-chatbot/decidim-module-rest_full/-/issues/2](https://git.octree.ch/decidim/decidim-chatbot/decidim-module-rest_full/-/issues/2))
 
 

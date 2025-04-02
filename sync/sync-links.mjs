@@ -3,11 +3,11 @@ import _ from 'lodash'
 
 const linkTable = async (filter) => {
   const links = await notionTable(filter)
-  const formattedLink = links.map((link) => {
-    const label = (_.first(link.Title.title)?.plain_text || "").replaceAll("|", "/")
+  const formattedLink = _.sortBy(links, (link) => _.trim(_.first(link.Comment.rich_text)?.plain_text || "")).map((link) => {
+    const label = _.trim(_.first(link.Title.title)?.plain_text || "").replaceAll("|", "/")
     const comment = _.first(link.Comment.rich_text)?.plain_text || ""
     const href = link.Link.url;
-    const category = link.Category?.select?.name || ""
+    const category = _.trim(link.Category?.select?.name || "")
 
     if(_.isEmpty(label) || _.isEmpty(href)) return false;
     return `| [${label}](${href}) 	| ${category ? `\`#${category}\`` : ""} 	| [ ${href.substr(0,25)} ](${href}) 	| ${comment} 	|`

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 30
+sidebar_position: 57
 slug: private-proposals-in-decidim
 last_update:
   date: 2025-02-25T14:27:00.000Z

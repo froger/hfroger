@@ -1,8 +1,8 @@
 ---
-sidebar_position: 15
+sidebar_position: 17
 slug: single-page-assembly
 last_update:
-  date: 2025-02-25T14:15:00.000Z
+  date: 2025-03-14T09:12:00.000Z
 hide_table_of_contents: true
 ---
 
@@ -31,7 +31,7 @@ When a small association can use decidim customizing their own color, without ha
 
 
 <figure>
-  <img src="/storage/1740506502793.jpeg" alt="" />
+  <img src="/storage/1743630375765.jpeg" alt="" />
   <figcaption>
   
     
@@ -40,5 +40,8 @@ When a small association can use decidim customizing their own color, without ha
 </figure>
 
 
+
+
+**march/2025** We have a working proof of concept!
 
 

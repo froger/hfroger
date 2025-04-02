@@ -1,5 +1,5 @@
 ---
-sidebar_position: 18
+sidebar_position: 19
 slug: decidim-in-portugal
 last_update:
   date: 2025-02-25T14:23:00.000Z
