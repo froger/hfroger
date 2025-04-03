@@ -1,5 +1,5 @@
 ---
-sidebar_position: 68
+sidebar_position: 66
 slug: decidim-and-isoiec2700127017
 last_update:
   date: 2025-02-25T18:08:00.000Z
@@ -12,7 +12,7 @@ hide_table_of_contents: true
 Code for japan made a white paper for Decidim, with some information about the ISO/IEC27001,27017 certification they get.
 
 
-<a href="/storage/1743673756809.pdf" target="_blank">Download File. </a>
+<a href="/storage/1743700393927.pdf" target="_blank">Download File. </a>
 
 
 From ISO Website: 

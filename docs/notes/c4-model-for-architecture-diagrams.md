@@ -1,5 +1,5 @@
 ---
-sidebar_position: 69
+sidebar_position: 67
 slug: c4-model-for-architecture-diagrams
 last_update:
   date: 2025-02-25T14:38:00.000Z
@@ -27,7 +27,7 @@ Keeps things clear without getting lost in UML.
 
 
 <figure>
-  <img src="/storage/1743673756778.png" alt="" />
+  <img src="/storage/1743700393222.png" alt="" />
   <figcaption>
   
     

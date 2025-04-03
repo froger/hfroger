@@ -1,5 +1,5 @@
 ---
-sidebar_position: 63
+sidebar_position: 61
 slug: supply-chain-and-open-source
 last_update:
   date: 2025-03-08T19:53:00.000Z
@@ -14,7 +14,7 @@ Notes from talk of George Links
 
 
 <figure>
-  <img src="/storage/1743673758368.jpeg" alt="" />
+  <img src="/storage/1743700393318.jpeg" alt="" />
   <figcaption>
   
     
@@ -45,7 +45,7 @@ Metrics:
 
 
 <figure>
-  <img src="/storage/1743673764693.jpeg" alt="" />
+  <img src="/storage/1743700397453.jpeg" alt="" />
   <figcaption>
   
     
@@ -82,7 +82,7 @@ Getting Started
 
 
 <figure>
-  <img src="/storage/1743673767232.jpeg" alt="" />
+  <img src="/storage/1743700404688.jpeg" alt="" />
   <figcaption>
   
     

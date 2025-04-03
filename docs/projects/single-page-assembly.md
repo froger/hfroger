@@ -31,7 +31,7 @@ When a small association can use decidim customizing their own color, without ha
 
 
 <figure>
-  <img src="/storage/1743673751090.jpeg" alt="" />
+  <img src="/storage/1743700383801.jpeg" alt="" />
   <figcaption>
   
     
