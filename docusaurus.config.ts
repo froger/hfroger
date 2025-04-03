@@ -127,7 +127,7 @@ const config: Config = {
       defaultLanguage: "ruby",
     },
     colorMode: {
-      defaultMode: "dark",
+      defaultMode: "light",
       respectPrefersColorScheme: true,
     },
   } satisfies Preset.ThemeConfig,

@@ -63,7 +63,6 @@ n2m.setCustomTransformer("file", async (block) => {
     const fileUrl = file.file.url;
     srcUrl = await downloadFileTo(fileUrl, "storage")
   }
-  console.log("SRC URL ", {srcUrl})
   return `<a href="${srcUrl}" target="_blank">Download File. ${await n2m.blockToMarkdown(file?.caption)}</a>`;
 });
 
