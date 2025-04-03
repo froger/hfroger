@@ -8,6 +8,7 @@ import path from 'path';
  * @param {string} directoryPath - The path of the directory to clean.
  */
 function removeImageFiles(directoryPath) {
+  if(!fs.existsSync(directoryPath)) return;
   // Read all files in the directory
   fs.readdir(directoryPath, (err, files) => {
     if (err) throw err;
