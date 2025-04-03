@@ -14,7 +14,7 @@ Notes from talk of George Links
 
 
 <figure>
-  <img src="/storage/1743700393318.jpeg" alt="" />
+  <img src="/storage/1743700890049.jpeg" alt="" />
   <figcaption>
   
     
@@ -45,7 +45,7 @@ Metrics:
 
 
 <figure>
-  <img src="/storage/1743700397453.jpeg" alt="" />
+  <img src="/storage/1743700900128.jpeg" alt="" />
   <figcaption>
   
     
@@ -82,7 +82,7 @@ Getting Started
 
 
 <figure>
-  <img src="/storage/1743700404688.jpeg" alt="" />
+  <img src="/storage/1743700907274.jpeg" alt="" />
   <figcaption>
   
     

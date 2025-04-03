@@ -27,7 +27,7 @@ Keeps things clear without getting lost in UML.
 
 
 <figure>
-  <img src="/storage/1743700393222.png" alt="" />
+  <img src="/storage/1743700889975.png" alt="" />
   <figcaption>
   
     
