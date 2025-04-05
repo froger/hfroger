@@ -1,8 +1,8 @@
 ---
-sidebar_position: 20
+sidebar_position: 19
 slug: valorize-decidim-geo
 last_update:
-  date: 2025-02-25T14:25:00.000Z
+  date: 2025-04-05T08:36:00.000Z
 hide_table_of_contents: true
 ---
 

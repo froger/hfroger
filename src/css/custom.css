@@ -11,12 +11,17 @@
   font-display: swap;
 }
 body {
-  font-size: 130%;
+  font-size: 1.375rem;
+  line-height: 1.7;
 }
 @media (min-width: 997px) {
   body {
-    font-size: 150%;
+    font-size: 1.375rem;
+    line-height: 1.7;
   }
+}
+h1,h2,h3,h4,h5,h6,p,ul, li {
+  max-width: 920px;
 }
 main {
   width: 100% !important;
@@ -44,18 +49,23 @@ pre > code {
 table {
   font-size: 80%;
 }
-
+h1{
+  font-family: "CrazyPixel", monospace;
+  font-size: 5.25rem;
+  line-height: 1.2;
+}
 h2 {
-  font-size: 200%;
+  font-size: 2.25rem;
+  font-size: 600;
 }
 h3 {
-  font-size: 150%;
+  font-size: 2.25rem;
 }
 h4 {
-  font-size: 100%;
+  font-size: 2rem;
 }
 h5 {
-  font-size: 100%;
+  font-size: 1.75rem;
 }
 table {
   display: table;
@@ -68,10 +78,7 @@ table thead th {
   border: 3px solid var(--ifm-color-primary-darkest);
   border-bottom-color: var(--ifm-color-primary-dark);
 }
-h1{
-  font-family: "CrazyPixel", monospace;
-  font-size: 450%;
-}
+
 
 /* You can override the default Infima variables here. */
 :root {

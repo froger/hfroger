@@ -12,7 +12,7 @@ hide_table_of_contents: true
 Code for japan made a white paper for Decidim, with some information about the ISO/IEC27001,27017 certification they get.
 
 
-<a href="/storage/1743700889974.pdf" target="_blank">Download File. </a>
+<a href="/storage/1743842225921.pdf" target="_blank">Download File. </a>
 
 
 From ISO Website: 

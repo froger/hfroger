@@ -14,6 +14,12 @@ const notionTable = async (selectFilter) => {
           equals: selectFilter,
         },
       },
+      "sorts": [
+        {
+            "property": "priority",
+            "direction": "ascending"
+        }
+      ],
       start_cursor: startCursor,
       page_size: 50,
     });

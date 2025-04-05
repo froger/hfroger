@@ -2,7 +2,7 @@
 sidebar_position: 60
 slug: override-decidim-views-from-a-module
 last_update:
-  date: 2025-04-03T17:19:00.000Z
+  date: 2025-04-04T09:16:00.000Z
 hide_table_of_contents: true
 ---
 
@@ -34,9 +34,9 @@ Please be sure to ready few time deface docs. It will save you a lot of time to 
 ### Use ruby files
 
 
-I know, you can use `.deface` files, with fancy `<!--- deface commands -->` . It is nice but: 
+I know, you can use `.deface` files, with fancy `<!--- deface commands -->` . It is nice, but: 
 
-1. You override view files for a purpose (improve admin experience), it makes sense to group all the overrides in one file. When maintaining, You will be able to check the stories and if something is wrong, you know where to look easier.
+1. You override view files for a purpose (improve admin experience), it makes sense to group all the overrides in one file. When maintaining, you will be able to check the stories and if something is wrong, you know where to look easier.
 2. Settings up attributes (like adding CSS classes) is much more nicer in ruby than in a `.deface` file.
 3. It’s faster to test your overrides work, as you just copy/past the `virtual_path` in your get_result command.
 
@@ -121,16 +121,27 @@ Deface::Override.new(
 ```
 
 
-Has `deface` tricks nokogiri to consider `<%=` as `ertb[loud]` tags, and `<%` as `erb[]slient]` tag, you can even do crazier rules like: `.section:has(erb[loud]:contains('newsletter_path'))` !
+As `deface` tricks nokogiri to consider:
+
+- `<%=` as `ertb[loud]`
+- `<%` as `erb[silent]`
+
+Then you can even do crazier rules!
+
+
+ `.section:has(erb[loud]:contains('newsletter_path'))` 
 
 
 ## Go in production
 
 1. Add to your entrypoints or your application build a `bundle exec rails deface:precompile`
-	1. The precompilation will add a `app/compiled_views/<your overrides>` files, and `compiled_views` path will be prepend over `app/views` path to be sure your overrides get loaded over the orginal files.
+	1. The precompilation will add a `app/compiled_views/<your overrides>` files, and `compiled_views` path will be prepend over `app/views` path to be sure your overrides get loaded over the original files.
 2. Add a configuration in your `config/environments/production.rb` to disable deface in production, as once compiled, it’s just pure Ruby!
 	1. Something like: 
-	`config.deface.enabled = ENV:fetch("DEFACE_ENABLED", "0") == "1"`
+	`config.deface.enabled = ENV.fetch("DEFACE_ENABLED", "0") == "1"`
+
+Hope it’s usefull! If you are stuck, feel free to ask the Decidim community
+
 
 
       

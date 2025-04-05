@@ -1,8 +1,8 @@
 ---
-sidebar_position: 17
+sidebar_position: 15
 slug: single-page-assembly
 last_update:
-  date: 2025-03-14T09:12:00.000Z
+  date: 2025-04-05T08:36:00.000Z
 hide_table_of_contents: true
 ---
 
@@ -31,7 +31,7 @@ When a small association can use decidim customizing their own color, without ha
 
 
 <figure>
-  <img src="/storage/1743700876862.jpeg" alt="" />
+  <img src="/storage/1743842218090.jpeg" alt="" />
   <figcaption>
   
     
@@ -42,6 +42,15 @@ When a small association can use decidim customizing their own color, without ha
 
 
 
-**march/2025** We have a working proof of concept!
+**march/2025** We have a working proof of concept! [community.voca.city](http://community.voca.city/) :)
 
+
+april/2025 we have a draft for final dev architecture. This is done on the max spec, and most likely the PO will prioritize and we will implement a partial architecture.
+
+- An organization can be defined as a generator for multi tenant
+- a generator can select
+	- a seed template (that requires parameters)
+	- a binding machine (stripe callback, decidim survey, proposal)
+		- choose the product/ressource
+		- for each parameter, bind the corresponding attribute
 
